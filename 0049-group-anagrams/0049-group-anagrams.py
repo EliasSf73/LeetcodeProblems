@@ -1,14 +1,11 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         maps=dict()
-        for a in strs:
-            kee= ''.join(sorted(list(a)))
+        
+        for word in strs:
+            kee=''.join(sorted(list(word)))
             if kee in maps:
-                maps[kee].append(a)
+                maps[kee].append(word)
             else:
-                maps[kee]=[a]
-        return [k for k in maps.values()]
-
-       
-
-
+                maps[kee]=[word]
+        return [x for x in maps.values()]
