@@ -14,18 +14,19 @@ class Solution(object):
             return True
         # identify digits and reverse them
         else:
-            print('x:',x)
+            # print('x:',x)
             while x>0:
                 digits.append(x%10)
-                print('digits:',digits)
+                # print('digits:',digits)
                 x=x//10
-                print('x:',x)
+                # print('x:',x)
+        
+        digits=digits[::-1] # reverse the digits order
         answer=0
-        digits=digits[::-1]
         for i in range(len(digits)):
             answer+= digits[i]* 10**i
-            print('answer:',answer)
-        print('x_original:',x_original)  
+        #     print('answer:',answer)
+        # print('x_original:',x_original)  
         return answer==x_original
 
 
