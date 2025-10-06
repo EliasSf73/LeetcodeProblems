@@ -17,7 +17,7 @@ class Solution(object):
             pos_x=pos_x//10
 
         digits=digits[::-1] # reverse the digits
-        answer=sum( [digit*10**i for i, digit in enumerate(digits)])
+        answer=sum( digit*10**i for i, digit in enumerate(digits))
         # beyond the domain
         if answer < (-2)**31 or answer > 2**31-1:
             return 0
