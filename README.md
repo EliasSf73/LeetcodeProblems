@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/EliasSf73/LeetcodeProblems/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/EliasSf73/LeetcodeProblems/tree/master/0009-palindrome-number) |
 | [1013-fibonacci-number](https://github.com/EliasSf73/LeetcodeProblems/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
